@@ -1,0 +1,13 @@
+User-agent: *
+allow: /
+Disallow: /admin/
+Disallow: /login/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /search/
+Disallow: /tag/
+Disallow: /category/
+Disallow: /author/
+Disallow: /archive/
+
+Sitemap: https://www.seusite.com/sitemap.xml  

@@ -43,8 +43,9 @@ const Footer = () => {
             <i class="uil uil-linkedin-alt"></i>
           </a>
         </div>
-        <span className="footer__copy">Desenvolvido por <i class="uil uil-instagram"
-              rel="noreferrer"></i> gomes.png com ❤️ - Todos os direitos reservado 2023 </span>
+        <span className="footer__copy">Desenvolvido por <a href="https://www.instagram.com/gomes.png/" target="_blank"
+            rel="noreferrer"> <i class="uil uil-instagram"
+              rel="noreferrer"></i> gomes.png</a> com ❤️ - Todos os direitos reservado 2023 </span>
       </div>
     </footer>
   )
