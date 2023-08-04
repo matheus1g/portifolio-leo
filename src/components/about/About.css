@@ -5,8 +5,14 @@
 }
 
 .about__img {
+  background: url(../../Assets/leo1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   border-radius: 1.5rem;
   justify-self: center;
+  width: 400px;
+  height: 600px;
 }
 
 .about__info {
@@ -54,6 +60,12 @@
   }
 
   .about__img {
+    background: url(../../Assets/leo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.5rem;
+    justify-self: center;
     width: 220px;
     height: 220px;
   }

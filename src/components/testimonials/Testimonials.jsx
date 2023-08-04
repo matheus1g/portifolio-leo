@@ -13,7 +13,7 @@ import { Pagination, A11y, Autoplay} from 'swiper/modules';
 const Testimonials = () => {
   return (
     <section className="testimonial container section" id="testimonial">
-      <h2 className="section__title">Oque os alunos dizem</h2>
+      <h2 className="section__title">O que os alunos dizem</h2>
       <span className="section__subtitle">Depoimentos</span>
 
       <Swiper 
