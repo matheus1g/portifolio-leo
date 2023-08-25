@@ -1,4 +1,4 @@
-.header {
+header .header {
   width: 100%;
   position: fixed;
   top: left;
@@ -7,7 +7,7 @@
   background-color: var(--body-color);
 }
 
-.nav {
+header .nav {
   height: calc(var(--header-height) + 1.5rem);
   display: flex;
   justify-content: space-between;
@@ -15,18 +15,18 @@
   column-gap: 1rem;
 }
 
-.nav__logo,
-.nav__toggle {
+header .nav__logo,
+header .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
 
-.nav__list {
+header .nav__list {
   display: flex;
   column-gap: 2rem;
 }
 
-.nav__link {
+header .nav__link {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,32 +36,32 @@
   transition: .3s;
 }
 
-.nav__icon,
-.nav__toggle,
-.nav__close {
+header .nav__icon,
+header .nav__toggle,
+header .nav__close {
   display: none;
 }
 
 /* Active Link */
 
-.active-link,
-.nav__link:hover {
+header .active-link,
+header .nav__link:hover {
   color: var(--title-color-dark);
 }
 
 /* break point*/
 
 @media screen and (max-width: 768px) {
-  .header {
+  header .header {
     top: initial;
     bottom: 0;
   }
 
-  .nav {
+  header .nav {
     height: var(--header-height);
   }
 
-  .nav__menu {
+  header .nav__menu {
     position: fixed;
     bottom: -100%;
     left: 0;
@@ -73,21 +73,21 @@
     transition: .3s;
   }
 
-  .show_menu {
+  header .show_menu {
     bottom: 0; 
   }
 
-  .nav__list {
+  header .nav__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
 
-  .nav__icon {
+  header .nav__icon {
     font-size: 1.2rem;
   }
 
-  .nav__close {
+  header .nav__close {
     position: absolute;
     right: 1.3rem;
     bottom: .5rem;
@@ -96,30 +96,30 @@
     color: var(--title-color);
   }
 
-  .nav__close:hover {
+  header .nav__close:hover {
     color: var(--title-color-dark);
   }
 
-  .nav__toggle {
+  header .nav__toggle {
     font-size: 1.1rem;
     cursor: pointer;
   }
 
 
-  .nav__icon,
-  .nav__close,
-  .nav__toggle {
+  header .nav__icon,
+  header .nav__close,
+  header .nav__toggle {
     display: block;
-  }
+  } 
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .nav__menu {
+  header .nav__menu {
     padding: 2rem 0.25rem 4rem;
   }
 
-  .nav__list {
+  header .nav__list {
     column-gap: 0;
   }
 }

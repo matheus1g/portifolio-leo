@@ -1,11 +1,11 @@
 import React from 'react';
-import "./home.css"
+import "./Banner.css"
 import Social from './social';
 import Data from './data';
 import ScrollDown from './ScrollDown';
 
 
-const Home = () => {
+const Banner = () => {
   return (
     <section className="home section" id="home">
       <div className="home__container container grid">
@@ -23,4 +23,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Banner;
